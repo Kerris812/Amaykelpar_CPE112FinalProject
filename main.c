@@ -23,6 +23,7 @@ int main(void) {
     do {
         cleanterminal(); //clear terminal
         intro(60); //intro with group title
+        toEnter();
 
         //main menu that colored by using ANSI colors
         optui(1, "Create Task", ANSI_YELLOW);
