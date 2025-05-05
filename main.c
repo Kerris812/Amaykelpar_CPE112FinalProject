@@ -26,23 +26,23 @@ int main(void) {
         toEnter();
 
         //main menu that colored by using ANSI colors
-        optui(1, "Create Task", ANSI_YELLOW);
-        optui(2, "Update Task",ANSI_YELLOW);
-        optui(3, "Duplicate Tasks",ANSI_YELLOW);
-        optui(4, "Delete Task",ANSI_YELLOW);
-        optui(5, "Restore Task", ANSI_YELLOW);
-        optui(6, "Rename Category", ANSI_YELLOW);
-        optui(7, "Merge Categories", ANSI_YELLOW);
-        optui(8, "Mark Task Status",ANSI_YELLOW);
-        optui(9, "View All Tasks",ANSI_YELLOW);
-        optui(10,"View Completed Tasks", ANSI_YELLOW);
-        optui(11,"View Tasks Due 24hrs", ANSI_YELLOW);
-        optui(12,"View Tasks in Same Category", ANSI_YELLOW);
-        optui(13,"View Tasks Description", ANSI_YELLOW);
-        optui(14,"View Statistics",ANSI_YELLOW);
-        optui(15,"Sort by Date", ANSI_YELLOW);
-        optui(16,"Sort by Priority", ANSI_YELLOW);
-        optui(17,"Sort by Name", ANSI_YELLOW);
+        optui(1, "Create Task", ANSI_BLUE);
+        optui(2, "Update Task",ANSI_BLUE);
+        optui(3, "Duplicate Tasks",ANSI_BLUE);
+        optui(4, "Delete Task",ANSI_BLUE);
+        optui(5, "Restore Task", ANSI_BLUE);
+        optui(6, "Rename Category", ANSI_BLUE);
+        optui(7, "Merge Categories", ANSI_BLUE);
+        optui(8, "Mark Task Status",ANSI_BLUE);
+        optui(9, "View All Tasks",ANSI_BLUE);
+        optui(10,"View Completed Tasks", ANSI_BLUE);
+        optui(11,"View Tasks Due 24hrs", ANSI_BLUE);
+        optui(12,"View Tasks in Same Category", ANSI_BLUE);
+        optui(13,"View Tasks Description", ANSI_BLUE);
+        optui(14,"View Statistics",ANSI_BLUE);
+        optui(15,"Sort by Date", ANSI_BLUE);
+        optui(16,"Sort by Priority", ANSI_BLUE);
+        optui(17,"Sort by Name", ANSI_BLUE);
 
         optui(0, "Exit", ANSI_BG_RED);
 
