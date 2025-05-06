@@ -97,7 +97,7 @@ void taskcreate(Category** cats) {
 
     //due time
     while (1) {
-        inputu(dueTime, MAX_TIME, "Due time is format (HH:MM): ");
+        inputu(dueTime, MAX_TIME, "Due time in format (HH:MM): ");
         if (!timeValidCase(dueTime)) {
             printf("Invalid time.\n");
             continue;
